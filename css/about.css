@@ -1,0 +1,130 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: dodgerblue;
+}
+
+.nav-bar {
+    height: 80;
+    width: 100%;
+    background-color: rgba(21,184,83,0.5);
+}
+
+.nav-logo {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.nav-list {
+  list-style-type: none;
+  float: right;
+}
+
+.list-item {
+  background-color: yellow;
+  width: 100px;
+  height: 40px;
+  float: left;
+  border: 3px solid blue;
+  border-radius: 8px;
+}
+
+.list-item {
+  text-align: center;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: blue;
+  }
+
+.list-item a:hover {
+  color: #f00;
+  }
+
+.main-background {
+  background-image: url(../img/sunflowers.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: 100%;
+  /* background-size: contain; */
+}
+
+.main-background-content {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  border: 3px solid black;
+  left: 43%;
+}
+
+.home-content {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  /* position: absolute; */
+  /* top: 100px; */
+  /* left: 43%; */
+}
+
+.content-img {
+  position: absolute;
+  left: 0;
+  height: 700px;
+  width: 40%;
+  border: solid 3px blue;
+  padding: 50px;
+}
+
+.content-text {
+  position: absolute;
+  height: 700px;
+  left: 50%;
+  width: 40%;
+  border: solid 3px blue;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.footer {
+  position: static;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: solid 3px blue;
+}
+
+.footer-col-a {
+  position: absolute;
+  left: 0;
+  width: 30%;
+  border-left: solid 3px blue;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+
+.footer-col-b {
+  position: absolute;
+  left: 33%;
+  width: 30%;
+  border-left: solid 3px blue;
+  text-align: center;
+}
+
+.footer-col-c {
+  position: absolute;
+  left: 66%;
+  width: 30%;
+  border-left: solid 3px blue;
+  text-align: center;
+}
+
+.fab {
+  font-size: 3em;
+}
+
+.fa-facebook {
+  color: #8a3ba9;
+}
