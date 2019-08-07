@@ -97,9 +97,10 @@ body {
 }
 
 .footer {
-  git add .width: 100%;
+  width: 100%;
   height: 65px;
   margin: 35px 2% 10px 1%;
+  background-color: rgba(0,255,255,0.5);
   }
 
 .footer-col {
